@@ -1,14 +1,14 @@
 1.  Navigate to https://us-east-1.console.aws.amazon.com/rds/home?region=us-east-1#
 2.  Click "Create database"
-3.  Select "MySQL"
-4.  Select "Free tier"
-5.  Click the "DB instance identifierInfo:" field and change it to "mydatabase"
+3.  In Engine Options, select "MySQL"
+4.  In Templates, select "Free tier"
+5.  Under Settings, in "DB instance identifier Info:" field, change it to "mydatabase"
 6.  Click the "Master password" and create an easy password
 7.  Click the "Confirm master passwordInfo:" field.
 8.  Select "YES" for public access
-9.  Click here.
-10.  Click the "Initial database name" type "banking"
-11.  Click this checkbox to deselect encryption
+9.  Expand Additional Configuration
+10.  In "Initial database name" type "banking"
+11.  Under "Encryption", deselect encryption
 12.  Click "Create database"
 13.  Click "Close"
 14.  Click "mydatabase"
