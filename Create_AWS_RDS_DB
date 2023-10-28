@@ -1,4 +1,6 @@
-1.  Navigate to https://us-east-1.console.aws.amazon.com/rds/home?region=us-east-1#
+# How to Configure Amazon Relational Database Service (RDS)
+
+1.  In AWS find and select RDS
 2.  Click "Create database"
 3.  In Engine Options, select "MySQL"
 4.  In Templates, select "Free tier"
@@ -14,6 +16,6 @@
 14.  Click "mydatabase"
 15.  This is your database endpoint
 16.  Click "Configuration"
-17.  This is where you find you database configurations
+17.  This is where you find your database configurations
 18.  Click "Connectivity & security" There was a default Security Group created, you'll need to edit that default SG and add the rule open port 3306 to everyone
 
